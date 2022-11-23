@@ -41,7 +41,8 @@ public class MainActivity extends AppCompatActivity {
 
         mensaje1 = (TextView) findViewById(R.id.mensaje_id);
         mensaje2 = (TextView) findViewById(R.id.mensaje_id2);
-
+        
+        //aca va la url de whatsapp para enviar un mensaje
         url = "https://api.callmebot.com/whatsapp.php?phone=+56996876782&text="++"&apikey=9213000";
 
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
